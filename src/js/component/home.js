@@ -10,18 +10,18 @@ import { Footer } from "./footer.js";
 //create your first component
 export function Home() {
 	return (
-        <div className="container-fluid">
-            <Navbar />
-			<Jumbotron />
-			{/*<div className="container-fluid">
+		<div className="container-fluid">
+			<Navbar />
+			<Jumbotron className="mt-1"/>
+			<div className="container-fluid">
 				<div className="row row-cols-1 row-cols-md-3 m-auto">
 					<Card />
 					<Card />
 					<Card />
 					<Card />
 				</div>
-    </div>*/}
-            <Footer />
-        </div>	
+            </div>
+			<Footer />
+		</div>
 	);
 }
