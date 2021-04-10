@@ -9,7 +9,7 @@ export function Navbar() {
 				</a>
 
 				<button
-					class="navbar-toggler"
+					className="navbar-toggler"
 					type="button"
 					data-toggle="collapse"
 					data-target="#navbarTogglerDemo02"
@@ -19,35 +19,33 @@ export function Navbar() {
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
-				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">
-								Home <span class="sr-only">(current)</span>
+				<div
+					className="collapse navbar-collapse"
+					id="navbarTogglerDemo02">
+					<ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li className="nav-item active">
+							<a className="nav-link" href="#">
+								Home <span className="sr-only">(current)</span>
 							</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">
+						<li className="nav-item">
+							<a className="nav-link" href="#">
 								About
 							</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">
+						<li className="nav-item">
+							<a className="nav-link" href="#">
 								Services
 							</a>
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">
-								Contact
+						<li className="nav-item">
+							<a className="nav-link" href="#"
+                             tabindex="-1"
+								aria-disabled="true">>
+								Contact  
 							</a>
 						</li>
-						<li class="nav-item">
-							<a
-								class="nav-link disabled"
-								href="#"
-								tabindex="-1"
-								aria-disabled="true"></a>
-						</li>
+						
 					</ul>
 				</div>
 			</div>

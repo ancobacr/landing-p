@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "./navbar.js";
 import { Jumbotron } from "./jumbotron.js";
-//import { Card } from "./card.js";
+import { Card } from "./card.js";
 import { Footer } from "./footer.js";
 
 //include images into your bundle
