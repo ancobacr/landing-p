@@ -1,8 +1,8 @@
 import React from "react";
 
-export class Card extends React.Component {
-	render() {
-		<div className="col mb-4">
+export function Card() {
+	return (
+		<div className="col mb-2">
 			<div className="card h-100">
 				<img src="..." className="card-img-top" alt="..." />
 				<div className="card-body">
@@ -14,6 +14,6 @@ export class Card extends React.Component {
 					</p>
 				</div>
 			</div>
-		</div>;
-	}
+		</div>
+	);
 }

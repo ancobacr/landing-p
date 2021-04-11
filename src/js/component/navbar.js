@@ -16,7 +16,7 @@ export function Navbar() {
 					aria-controls="navbarTogglerDemo02"
 					aria-expanded="false"
 					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+					<span className="navbar-toggler-icon"></span>
 				</button>
 
 				<div
@@ -39,13 +39,10 @@ export function Navbar() {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#"
-                             tabindex="-1"
-								aria-disabled="true">>
-								Contact  
+							<a className="nav-link" href="#">
+								Contact
 							</a>
 						</li>
-						
 					</ul>
 				</div>
 			</div>
