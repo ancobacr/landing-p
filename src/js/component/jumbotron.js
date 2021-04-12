@@ -2,17 +2,19 @@ import React from "react";
 
 export function Jumbotron() {
 	return (
-		<div className="jumbotron">
-			<h1 className="display-4">A Warm Welcome!</h1>
+		<div className="jumbotron mt-2">
+			<h1 className="display-4">
+				<strong>A Warm Welcome!</strong>
+			</h1>
 			<p className="lead">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
 				sagittis euismod purus, sit amet pulvinar dolor porttitor sit
 				amet. In ante dolor, tempor ac dolor nec, tincidunt sollicitudin
 				elit.
 			</p>
-			<a className="btn btn-primary btn-lg" href="#" role="button">
+			<buttom className="btn btn-primary btn-lg" role="summit">
 				Call to action!
-			</a>
+			</buttom>
 		</div>
 	);
 }
